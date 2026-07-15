@@ -1,12 +1,14 @@
 
+import Products from "./pages/products"
+
 
 function App() {
 
   return (
 
-    <>
-      <h1>hello sobaike</h1>
-    </>
+    <div className="min-h-full">
+      <Products></Products>
+    </div>
   )
 }
 
