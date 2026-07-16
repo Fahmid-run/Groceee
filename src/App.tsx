@@ -1,13 +1,13 @@
+import Hero from "./components/Layouts/Hero/Hero"
 
-import Products from "./pages/products"
 
 
 function App() {
 
   return (
 
-    <div className="min-h-full">
-      <Products></Products>
+    <div className="min-h-screen overflow-x-hidden">
+      <Hero></Hero>
     </div>
   )
 }

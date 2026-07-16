@@ -4,6 +4,7 @@
    Modern Grocery E-commerce UI
 ========================================================== */
 
+@import "tailwindcss";
 @tailwind utilities;   
 @plugin "daisyui"{
  themes: light --default;
@@ -113,12 +114,6 @@
 
   /* Font Weight */
 
-  --font-light: 300;
-  --font-normal: 400;
-  --font-medium: 500;
-  --font-semibold: 600;
-  --font-bold: 700;
-  --font-extrabold: 800;
 
   /* Line Heights */
 
@@ -273,3 +268,14 @@
   --card-gap: 24px;
   --grid-gap: 32px;
 }
+
+
+html,body,#root{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+
+
+
